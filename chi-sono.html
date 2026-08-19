@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chi sono — Menny</title>
+<meta name="description" content="Chi sono e perché costruisco siti web per le attività del mio paese.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="scroll-progress" aria-hidden="true"></div>
+<div id="cursor-glow" aria-hidden="true"></div>
+<canvas id="starfield" aria-hidden="true"></canvas>
+<div class="ambient" aria-hidden="true"></div>
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header>
+  <nav>
+    <a href="index.html" class="logo">MENNY<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="servizi.html">Servizi</a></li>
+      <li><a href="progetti.html">Progetti</a></li>
+      <li><a href="chi-sono.html" class="is-current">Chi sono</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contatti.html" class="btn btn-ghost btn-sm">Contattami</a>
+    </div>
+    <button class="menu-toggle" aria-label="Apri menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<main>
+
+  <section class="section" style="padding-top:160px;">
+    <div class="wrap about">
+      <div class="avatar-block reveal-up">
+        <span class="avatar-mono">M</span>
+      </div>
+      <div class="about-text reveal-up">
+        <span class="eyebrow">Chi sono</span>
+        <h2>Ciao, sono Menny.</h2>
+        <p>Sto imparando a programmare per trasformare le attività del mio paese in presenze online moderne e curate. Credo che ogni negozio, anche il più piccolo, meriti un sito bello e utile quanto il posto stesso.</p>
+        <p>Ogni progetto che vedi in questo portfolio è stato costruito da zero, pensando a come lavora davvero l'attività che rappresenta — non partendo da un modello uguale per tutti.</p>
+        <div class="skill-pills">
+          <span class="pill">HTML</span><span class="pill">CSS</span><span class="pill">JavaScript</span><span class="pill">Responsive design</span><span class="pill">GitHub Pages</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section compact">
+    <div class="wrap">
+      <div class="contact-panel reveal-up">
+        <span class="eyebrow">Parliamone</span>
+        <h2 style="margin-top:16px;">Vuoi un sito così anche tu?</h2>
+        <p>Guarda i progetti già fatti o scrivimi direttamente per parlare della tua attività.</p>
+        <div class="contact-actions">
+          <a href="progetti.html" class="btn btn-ghost">Guarda i progetti</a>
+          <a href="contatti.html" class="btn btn-primary">Contattami</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-row">
+    <a href="index.html" class="logo" style="font-size:16px;">MENNY<span>.</span></a>
+    <ul class="footer-links">
+      <li><a href="progetti.html">Progetti</a></li>
+      <li><a href="chi-sono.html">Chi sono</a></li>
+      <li><a href="biglietto-da-visita.html">Biglietto da visita</a></li>
+      <li><a href="https://github.com/menny28" target="_blank" rel="noopener">GitHub</a></li>
+    </ul>
+    <span class="footer-note">© <span id="footer-year">2026</span> Menny — Siti web per attività locali</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
